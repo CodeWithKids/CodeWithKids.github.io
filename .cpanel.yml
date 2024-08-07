@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codewit2/public_html
+    - /bin/cp -R * $DEPLOYPATH
