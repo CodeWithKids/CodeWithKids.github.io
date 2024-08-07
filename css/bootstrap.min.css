@@ -10027,3 +10027,23 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+.whatsapp-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+}
+
+.whatsapp-widget a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-widget a img:hover {
+  transform: scale(1.1);
+}
